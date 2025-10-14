@@ -1,0 +1,164 @@
+      Modular AI components you can activate on demand — fully EU-compliant, scalable, and secure.
+    </p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🤖</div>
+        <h3>Chatbots & AI Assistants</h3>
+        <p>Deploy intelligent chat interfaces that automate responses, provide insights, and improve customer engagement with multilingual support and GDPR compliance.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">⚙️</div>
+        <h3>Process Automation</h3>
+        <p>Integrate AI-driven workflows that connect ERP, CRM, and communication tools like Bsale, Trello, or Slack — designed for seamless automation and measurable efficiency.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📊</div>
+        <h3>Predictive Dashboards</h3>
+        <p>Monitor, forecast, and visualize data with real-time dashboards powered by AI agents. Get proactive alerts and business insights without extra setup.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🔒</div>
+        <h3>AI Security Layer</h3>
+        <p>Ensure model protection and traceability with adaptive AI defense and monitoring. Fully compliant with EU AI Act, GDPR, and NIS2 frameworks.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="container">
+    <h2>AI Stack</h2>
+    <p>
+      Our modular architecture combines automation, data processing, and secure cloud infrastructure to ensure reliability and scalability for European enterprises.
+    </p>
+
+    <div class="stack-container">
+      <div class="stack-block">
+        <div class="stack-icon">🧠</div>
+        <strong>AI Core Engine</strong>
+        <span>Machine Learning, NLP, Predictive Models, and Explainability (SHAP, LIME).</span>
+      </div>
+
+      <div class="stack-block">
+        <div class="stack-icon">☁️</div>
+        <strong>Cloud Infrastructure</strong>
+        <span>Secure hosting on EU-based servers (AWS Frankfurt, Azure West Europe, or OVH France).</span>
+      </div>
+
+      <div class="stack-block">
+        <div class="stack-icon">🔗</div>
+        <strong>API Integrations</strong>
+        <span>Connect easily with systems like Bsale, HubSpot, Google Workspace, or Microsoft 365.</span>
+      </div>
+
+      <div class="stack-block">
+        <div class="stack-icon">🧩</div>
+        <strong>Modular Components</strong>
+        <span>Activate or deactivate AI modules — from analytics to automation — according to business needs.</span>
+      </div>
+
+      <div class="stack-block">
+        <div class="stack-icon">🛡️</div>
+        <strong>Compliance Layer</strong>
+        <span>GDPR, EU AI Act, and NIS2 compliance built-in — protecting both data and operations.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="dashboard" class="container">
+    <h2>AI Dashboard</h2>
+    <p>
+      Visualize and control your operations with a centralized interface — predictive analytics, automation triggers, and compliance insights in one place.
+    </p>
+
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-value">99.9%</div>
+        <div class="kpi-label">Uptime</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">2.3x</div>
+        <div class="kpi-label">Faster Workflow</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">+48%</div>
+        <div class="kpi-label">Efficiency Gain</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-value">100%</div>
+        <div class="kpi-label">EU Compliance</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="custom">
+    <div class="custom-wrap">
+      <h2 class="custom-title">Need a Custom Solution?</h2>
+      <p class="custom-sub">We design tailor-made AI systems adapted to your workflow, budget, and compliance needs.</p>
+      <p class="custom-quote">"Our mission is to democratize access to advanced AI tools while keeping trust and security at the core."</p>
+
+      <div class="custom-cta-group">
+        <a href="#contact" class="custom-cta">Request a Custom Build</a>
+        <a href="assets/ComplianceKit.pdf" download class="custom-cta secondary">Download EU Compliance Kit</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Let’s discuss how Xerion Lab can help your business scale with secure and intelligent automation.</p>
+
+      <form class="contact-form" action="mailto:contact@xerionlab.eu" method="post" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required placeholder="John Doe">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required placeholder="john@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your project..."></textarea>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="gdpr" name="gdpr" required>
+          <label for="gdpr">I consent to having this website store my submitted information so they can respond to my inquiry, in compliance with GDPR.</label>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+
+      <div class="mailto-link">
+        or email us directly at <a href="mailto:contact@xerionlab.eu">contact@xerionlab.eu</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 XERION LAB OÜ — All rights reserved. Built in the EU 🇪🇺</p>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#stack">AI Stack</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#custom">Custom</a>
+      <a href="#contact">Contact</a>
+      <a href="assets/ComplianceKit.pdf" download>Compliance Kit</a>
+    </div>
+  </footer>
+
+  <script>
+    // Page fade-in on load
+    document.body.classList.add('loading');
+    window.addEventListener('load', () => {
+      document.body.classList.remove('loading');
+    });
+  </script>
+</body>
+</html>
