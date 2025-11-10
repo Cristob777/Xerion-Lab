@@ -38,6 +38,30 @@ Dashboard de Business Intelligence para análisis de ventas, productos, clientes
 - ✅ Estado de stock con colores (rojo, amarillo, verde)
 - ✅ Filtros por nivel de stock
 
+### 🤖 Predicciones e Insights con IA (NUEVO)
+- ✅ **Forecasting de Ventas** con regresión lineal
+  - Predicciones a 6 meses con intervalos de confianza
+  - Detección automática de estacionalidad
+  - Identificación de tendencias (up/down/stable)
+  - Visualización de datos históricos vs predicciones
+
+- ✅ **Agente de Insights Automáticos**
+  - Análisis inteligente de métricas clave
+  - Detección de oportunidades y alertas
+  - Recomendaciones automáticas por categoría
+  - Clasificación por impacto (alto, medio, bajo)
+
+- ✅ **Health Score del Negocio**
+  - Score de salud 0-100 basado en 5 factores
+  - Evaluación automática: Excelente / Bueno / Atención / Crítico
+  - Desglose por factor con pesos ponderados
+  - Indicadores visuales de rendimiento
+
+- ✅ **Recomendaciones Estratégicas**
+  - Sugerencias para productos, clientes e inventario
+  - Basadas en análisis de datos en tiempo real
+  - Priorización por impacto potencial
+
 ---
 
 ## 🛠️ Stack Tecnológico
@@ -192,6 +216,31 @@ GET /api/clientes/segmentacion
 ```
 GET /api/stock/rotacion
 ```
+
+### 🤖 Predicciones con IA (NUEVO)
+```
+GET /api/ai/forecast?periods=6&method=linear
+```
+
+Parámetros:
+- `periods`: Número de períodos a predecir (default: 6)
+- `method`: `linear` o `moving_average`
+
+Retorna: Predicciones de ventas con intervalos de confianza + análisis de estacionalidad
+
+### Insights Automáticos (NUEVO)
+```
+GET /api/ai/insights?dateFrom=YYYY-MM-DD&dateTo=YYYY-MM-DD
+```
+
+Retorna: Insights generados por IA, oportunidades, alertas y recomendaciones
+
+### Health Score del Negocio (NUEVO)
+```
+GET /api/ai/health-score?dateFrom=YYYY-MM-DD&dateTo=YYYY-MM-DD
+```
+
+Retorna: Score de salud 0-100 con desglose por factores
 
 ---
 

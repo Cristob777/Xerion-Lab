@@ -45,6 +45,14 @@ El dashboard está completamente funcional y listo para usar. Incluye:
    - Rotación de inventario
    - Filtros por nivel de stock
 
+5. **🤖 Predicciones e Insights con IA** (NUEVO)
+   - Forecasting de ventas con regresión lineal (6 meses)
+   - Detección automática de estacionalidad
+   - Agente de insights automáticos con recomendaciones
+   - Health Score del negocio (0-100)
+   - Clasificación de insights por impacto y tipo
+   - Recomendaciones estratégicas por categoría
+
 ---
 
 ## 🚀 Quick Start
@@ -128,11 +136,11 @@ vercel
 ## 📈 Estado del Proyecto
 
 ```
-[████████████████████░░░░] 80% Completado
+[██████████████████████░░] 90% Completado
 
-✅ Implementado:  16/20 componentes
-⏳ En progreso:    1/20 componentes
-❌ Pendiente:      3/20 componentes
+✅ Implementado:  19/21 componentes
+⏳ En progreso:    0/21 componentes
+❌ Pendiente:      2/21 componentes
 ```
 
 ### ✅ Completado
@@ -143,9 +151,12 @@ vercel
 - ✅ Silver Layer (100% operativo)
 - ✅ Gold Layer (dimensiones 100% + hechos 70%)
 - ✅ Dashboard Next.js funcional
-- ✅ 4 páginas de análisis (Dashboard, Productos, Clientes, Inventario)
+- ✅ 5 páginas de análisis (Dashboard, Productos, Clientes, Inventario, **Predicciones IA**)
 - ✅ Componentes UI reutilizables
-- ✅ API Routes completas
+- ✅ API Routes completas (9 endpoints)
+- ✅ **Forecasting con IA** (regresión lineal + estacionalidad)
+- ✅ **Agente de Insights automáticos**
+- ✅ **Health Score del negocio**
 - ✅ Documentación exhaustiva
 
 ### ⏳ Próximos Pasos (Roadmap)
@@ -163,10 +174,10 @@ vercel
 4. Índices y vistas materializadas
 5. Testing y ajustes
 
-**Bajo (16-32 horas)**:
-6. Forecasting con IA
-7. Alertas automáticas
-8. Métodos Bayesianos
+**Bajo (opcional)**:
+6. ✅ **Forecasting con IA** - COMPLETADO
+7. Alertas automáticas por email/Slack
+8. Métodos Bayesianos avanzados
 
 ---
 
